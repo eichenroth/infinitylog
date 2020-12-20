@@ -1,24 +1,20 @@
 import React from 'react';
+import Editor from '@monaco-editor/react';
 
 const App = (): React.ReactElement => (
   <>
-    <header className="App-header">
-      <p>
-        Edit
-        {' '}
-        <code>src/App.tsx</code>
-        {' '}
-        and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
+    <Editor
+      height="100vh"
+      language="markdown"
+      options={{
+        // hides line numbers
+        lineNumbers: 'off',
+        // hide folding option
+        folding: false,
+        // automatical line break
+        wordWrap: 'on',
+      }}
+    />
   </>
 );
 
