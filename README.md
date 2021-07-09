@@ -67,4 +67,6 @@ This list contains some of the features, that seem to be relevant to me at the m
 - Remove autocompletion and Ctrl+Space behaviour.
 - Add top bar with some actions like, logout, usersettings, search, help, ...
 - Smooth scroll
-- Disable native search 
+- Disable native search
+- Remove right bar
+ 
